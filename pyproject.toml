@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "embedded.ai.mtxslv"
+version = "0.1.0"
+description = ""
+authors = ["Mateus Assis <mateus.d.assis.silva@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.0"
+scikit-learn = "^1.1.2"
+matplotlib = "^3.6.0"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.16.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
