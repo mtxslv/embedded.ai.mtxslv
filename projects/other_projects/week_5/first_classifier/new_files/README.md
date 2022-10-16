@@ -31,8 +31,6 @@ The dataset under study is split into Train and Test during the ``Segregate`` st
 ## Metrics
 In order to follow the performance of machine learning experiments, the project marked certains stage outputs of the data pipeline as metrics. The metrics adopted are: [accuracy](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html), [f1](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score), [precision](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html#sklearn.metrics.precision_score), [recall](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html#sklearn.metrics.recall_score).
 
-To calculate the evaluations metrics is only necessary to run:
-
 The follow results will be shown:
 
  **Stage [Run]**                        | **Accuracy** | **F1** | **Precision** | **Recall** | 
