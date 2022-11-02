@@ -1,5 +1,5 @@
 # LeNet-5
-_Introduction by Ivanovitch Silva_
+[_Introduction by Ivanovitch Silva_](https://github.com/ivanovitchm/embedded.ai/blob/main/lessons/week_08/LeNet.ipynb)
 
 Perhaps the first widely known and successful application of convolutional neural networks was **LeNet-5**, described by Yann LeCun, et al. in their 1998 paper titled [Gradient-Based Learning Applied to Document Recognition](https://ieeexplore.ieee.org/document/726791). The system was developed for use in a handwritten character recognition problem and demonstrated on the **MNIST standard dataset**, achieving approximately 99.2% classification accuracy (or a 0.8% error rate). The network was then described as the central technique in a broader system referred to as **Graph Transformer Networks**.
 
