@@ -52,7 +52,7 @@ In the (train) accuracy graphs, we see there are four runs whose accuracy was gr
 |twilight-sweep-8 | 0.984          |
 |splendid-sweep-11| 0.9784         |
 
-and only two with an "low" accuracy
+and only two with "low" accuracies
 
 | automatic name  | train accuracy |
 | :--:            |      :---:     |
@@ -74,7 +74,7 @@ Since there are four really distinct best accuracies, we may think: what do they
 |twilight-sweep-8 | 0.984          | relu                | true       |  0.1    |
 |splendid-sweep-11| 0.9784         | relu                | false      | 0.1     |
 
-This result is really curious. The use of relu activation function is ubiquitous, which may indicate that the use of such activation function is better. The other parameters, on the other hand, have different values. The use or not of Dropout and Batch Normalization is equally distributed amongst the runs.
+This result is really curious. The use of relu activation function is ubiquitous, which may reinforce the use of such activation function in this problem. The other parameters, on the other hand, have different values. The use or not of Dropout and Batch Normalization is equally distributed amongst the runs.
 
 What about the "worse" results?
 
