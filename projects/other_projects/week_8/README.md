@@ -33,9 +33,9 @@ Even though LeNet is awesome, couldn't we improve it? For example...
 
 Thus, this is a good opportunity to try them out. In order to do this, let's use [WandB Sweeps](https://docs.wandb.ai/guides/sweeps). 
 
-The rest of this file (such as the Intro) were borrowed from [Ivanovitch Silva's code](https://github.com/ivanovitchm/embedded.ai/blob/main/lessons/week_08/LeNet.ipynb), and modified as needed. Contrary to the original file, this one does not contain Data Augmentation and does not explicitly implement the IvanNet, since the goal is to try the use of ReLu, Dropout and BatchNorm. It is important to notice that, by using Dropout and BatchNorm, we try IvanNet as well (since these modifications were applied in it).
+The Intro were borrowed from [Ivanovitch Silva's code](https://github.com/ivanovitchm/embedded.ai/blob/main/lessons/week_08/LeNet.ipynb). The project, located at `./assignment/ModifiedLeNet.ipynb`, is a modified version of Ivanovitch's work. Contrary to the original file, though, this one does not contain Data Augmentation and does not explicitly implement the IvanNet, since the goal is to try the use of ReLu, Dropout and BatchNorm. It is important to notice that, by using Dropout and BatchNorm, we try IvanNet as well (since these modifications were applied in it).
 
-If you want to know how it was done, go see `./assignment/ModifiedLeNet.ipynb`. If you want to see the results, stick around.
+If you want to know how it was done, read the notebook and see the [wandb runs](https://wandb.ai/mtxslv/lenet-5-assignment?workspace=user-mtxslv). If you want to read a summary of the results, stick around.
 
 # Results
 
